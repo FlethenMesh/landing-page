@@ -8,15 +8,15 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #1f2937;
   align-items: center;
   padding: 10px;
-  font-family: Roboto;
 }
 
 .logo {
   font-size: 24px;
+  font-family: 'Roboto', sans-serif;
   color: #f9faf8;
   flex-shrink: 0;
 }
@@ -35,6 +35,8 @@ body {
 a {
   text-decoration: none;
   color: #e5e7eb;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 /*content styles*/
@@ -43,7 +45,7 @@ a {
   display: flex;
   background-color: #1f2937;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   padding: 60px;
   gap: 10px;
 }
@@ -52,6 +54,8 @@ a {
   display: flex;
   flex-direction: column;
   flex: 1;
+  min-width: 400px;
+  max-width: 400px;
 }
 
 .content-header {
@@ -74,5 +78,10 @@ a {
 .content-img {
   flex: 1;
   background-color: lightgray;
+  min-width: 400px;
+  max-width: 400px;
 }
+
+/*info styles*/
+
 
