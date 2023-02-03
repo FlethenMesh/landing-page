@@ -15,21 +15,24 @@ body {
 }
 
 .logo {
+  flex: auto;  
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
   color: #f9faf8;
-  flex-shrink: 0;
+  margin-left: auto;
 }
 
 .right-links {
   color: #e5e7eb;
+  max-width: 400px;
   display: flex;
-  flex-shrink: 0;
+  flex: auto;
   list-style-type: none;
   justify-content: space-between;
-  gap: 18px;
   margin: 0;
+  margin-right: 50px;
   padding: 0;
+  padding-right: 50px;
 }
 
 a {
